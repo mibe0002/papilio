@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
+@layer base {
+}
 
+/* Font */
+@font-face {
+  font-family: "papilio";
+  src: url("/font/papilio-regular-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@layer utilities {
+  .tilt-in-fwd-tr {
+    -webkit-animation: tilt-in-fwd-tr 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: tilt-in-fwd-tr 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
 }

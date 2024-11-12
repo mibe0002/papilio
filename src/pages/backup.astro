@@ -1,0 +1,714 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import Header from "../components/Header.astro";
+import Button from '../components/Button.astro';
+import Link from '../components/Link.astro';
+import { Image } from 'astro:assets';
+import butterfly from "../assets/images/butterfly.jpg";
+
+import 'animate.css';
+---
+<MainLayout title="Papilio" class="scroll-smooth">
+	<article class="relative h-auto overflow-hidden flex justify-center text-xl"> <!-- text-align: left; -->
+		<section class="#sektion1 grid grid-cols-12 gap-x-[24px] text-center">
+			<div class="col-span-4">
+			<div class="origin">ORIGIN </div>
+			<i class="where-the-inspiration">Where the inspiration comes from</i>
+			<div class="lorem-ipsum-dolor">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor arcu
+				nec pretium iaculis. Vestibulum a ligula sit amet magna pulvinar accumsan eu nec ante. Fusce eu
+				ullamcorper nisl. Etiam consectetur est porta, volutpat urna in, vestibulum leo. Aliquam pharetra nisi
+				sem, ut feugiat felis malesuada id. Pellentesque habitant morbi tristique senectus et netus et malesuada
+				fames ac turpis egestas. Sed pellentesque efficitur sem, quis fermentum libero fringilla sit amet. In
+				odio lacus, semper id velit vel, rhoncus efficitur nulla. Curabitur quis pellentesque libero. Nunc
+				commodo elementum arcu, sed porttitor felis bibendum sit amet. Sed ut fermentum sem. Proin id
+				sollicitudin felis. Integer venenatis dictum consectetur.</div>
+			<div class="unfold-your-wings-wrapper">
+				<div class="unfold-your-wings">Purchase Papilio</div>
+			</div>
+			</div>
+			
+			<Image src={butterfly} alt="" class="relative top-0 col-span-8 w-[744px] h-auto object-cover rounded-[14px]"></Image>
+<!-- .sektion1 {
+			position: absolute;
+			top: 491px;
+			left: 300px;
+			width: 1128px;
+			height: 744px;
+			text-align: center;
+		} -->
+
+		
+		<!-- .check-it-out-1jpg-icon {
+			position: absolute;
+			top: 0px;
+			left: 384px;
+			border-radius: 14px;
+			width: 744px;
+			height: 744px;
+			overflow: hidden;
+			object-fit: cover;
+		} -->
+
+		</section>
+
+	</article>
+
+	<div class="">
+		
+	
+		
+
+		<div class="sektion2">
+			<div class="transformation">
+				<img class="image-7-icon" alt="" src="image 7.png">
+
+				<img class="icon" alt="" src="20241112_160155 1.png">
+
+				<img class="icon1" alt="" src="20241112_160155 2.png">
+
+				<img class="startinglines-1-icon" alt="" src="startinglines 1.png">
+
+				<img class="pattern-1-icon" alt="" src="pattern 1.png">
+
+				<img class="image-8-icon" alt="" src="image 8.png">
+
+				<img class="patternwithtext-1-icon" alt="" src="patternwithtext 1.png">
+
+				<img class="font-1-icon" alt="" src="Font 1.png">
+
+				<div class="sketches">SKETCHES</div>
+				<div class="inspiration">INSPIRATION</div>
+				<div class="idea">IDEA</div>
+				<div class="idea-to-pattern">IDEA TO PATTERN</div>
+				<div class="inspiration1">INSPIRATION</div>
+				<div class="making-letters">MAKING LETTERS</div>
+				<div class="setting-up-letters">SETTING UP LETTERS</div>
+			</div>
+			<div class="transformation1">TRANSFORMATION</div>
+			<div class="lorem-ipsum-dolor1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor arcu
+				nec pretium iaculis. Vestibulum a ligula sit amet magna pulvinar accumsan eu nec ante. Fusce eu
+				ullamcorper nisl. Etiam consectetur est porta, volutpat urna in, vestibulum leo. Aliquam pharetra nisi
+				sem, ut feugiat felis malesuada id. Pellentesque habitant morbi tristique senectus et netus et malesuada
+				fames ac turpis egestas. Sed pellentesque efficitur sem, quis fermentum libero fringilla sit amet. In
+				odio lacus, semper id velit vel, rhoncus efficitur nulla. Curabitur quis pellentesque libero. Nunc
+				commodo elementum arcu, sed porttitor felis bibendum sit amet. Sed ut fermentum sem. Proin id
+				sollicitudin felis. Integer venenatis dictum consectetur.</div>
+			<i class="from-an-idea">From an idea to a typeface</i>
+		</div>
+		<div class="sektion3">
+			<div class="firefly-papilio-display-promov-parent">
+				<img class="firefly-papilio-display-promov" alt=""
+					src="Firefly Papilio display promovering med sommerfugle 40376.png">
+
+				<img class="firefly-papilio-display-promov1" alt=""
+					src="Firefly Papilio display promovering med sommerfugle 43294.png">
+
+				<img class="firefly-papilio-display-promov" alt=""
+					src="Firefly Papilio display promovering med sommerfugle 79889.png">
+
+				<img class="firefly-papilio-display-promov" alt="" src="Firefly kvinde med sommerfugle 62704.png">
+
+				<img class="firefly-papilio-display-promov" alt=""
+					src="Firefly Papilio display promovering med sommerfugle 87884.png">
+
+				<img class="firefly-papilio-display-promov" alt=""
+					src="Firefly Papilio display promovering med sommerfugle 74816.png">
+
+			</div>
+			<div class="growth">GROWTH</div>
+			<div class="lorem-ipsum-dolor2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor arcu
+				nec pretium iaculis. Vestibulum a ligula sit amet magna pulvinar accumsan eu nec ante. Fusce eu
+				ullamcorper nisl. Etiam consectetur est porta, volutpat urna in, vestibulum leo. Aliquam pharetra nisi
+				sem, ut feugiat felis malesuada id. Pellentesque habitant morbi tristique senectus et netus et malesuada
+				fames ac turpis egestas. Sed pellentesque efficitur sem, quis fermentum libero fringilla sit amet. In
+				odio lacus, semper id velit vel, rhoncus efficitur nulla. Curabitur quis pellentesque libero. Nunc
+				commodo elementum arcu, sed porttitor felis bibendum sit amet. Sed ut fermentum sem. Proin id
+				sollicitudin felis. Integer venenatis dictum consectetur.</div>
+			<i class="adaptable-to-every">Adaptable to every desired purpose</i>
+		</div>
+		<div class="macbook-pro-16-1-child">
+		</div>
+		<div class="sektion4">
+			<div class="flight">FLIGHT</div>
+			<i class="examples-of-papilio">Examples of Papilio in use</i>
+			<div class="lorem-ipsum-dolor3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus auctor arcu
+				nec pretium iaculis. Vestibulum a ligula sit amet magna pulvinar accumsan eu nec ante. Fusce eu
+				ullamcorper nisl. Etiam consectetur est porta, volutpat urna in, vestibulum leo. Aliquam pharetra nisi
+				sem, ut feugiat felis malesuada id. Pellentesque habitant morbi tristique senectus et netus et malesuada
+				fames ac turpis egestas. Sed pellentesque efficitur sem, quis fermentum libero fringilla sit amet. In
+				odio lacus, semper id velit vel, rhoncus efficitur nulla. Curabitur quis pellentesque libero. Nunc
+				commodo elementum arcu, sed porttitor felis bibendum sit amet. Sed ut fermentum sem. Proin id
+				sollicitudin felis. Integer venenatis dictum consectetur.</div>
+			<div class="unfold-your-wings-container">
+				<div class="unfold-your-wings">Purchase Papilio</div>
+			</div>
+			<img class="image-icon" alt="" src="image.png">
+
+			<img class="image-icon1" alt="" src="image.png">
+
+			<div class="sektion4-child">
+			</div>
+		</div>
+		<div class="footer">
+			<img class="background-animated-gradient" alt="" src="Background animated gradient.svg">
+
+			<div class="unfold-your-wings-frame">
+				<div class="unfold-your-wings">Purchase Papilio</div>
+			</div>
+			<div class="promotional-site-for-papilio-parent">
+				<div class="promotional-site-for">Promotional site for Papilio</div>
+				<div class="unfold-your-wings">© 2024 Miv Anna Berg - MMD, KEA</div>
+				<div class="unfold-your-wings">mibe0002@stud.kea.dk</div>
+			</div>
+		</div>
+		<div class="nav">
+			<img class="background-animated-gradient1" alt="" src="Background animated gradient.svg">
+
+			<div class="origin-parent">
+				<div class="origin1">ORIGIN</div>
+				<div class="unfold-your-wings">TRANSFORMATION</div>
+				<div class="unfold-your-wings">GROWTH</div>
+				<div class="unfold-your-wings">FLIGHT</div>
+				<div class="frame-div">
+					<div class="unfold-your-wings">Purchase Papilio</div>
+				</div>
+			</div>
+		</div>
+		<img class="logo-2-icon" alt="" src="logo 2.svg">
+
+	</div>
+</MainLayout>
+
+
+
+
+	<style>
+		.papilio {
+			position: absolute;
+			top: 101px;
+			left: 492px;
+			font-size: 152px;
+			letter-spacing: -9px;
+			line-height: 145.92px;
+			font-family: Papilio;
+			color: #4b86e6;
+			display: inline-block;
+			width: 360px;
+			height: 146px;
+		}
+
+		
+
+
+		.origin {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			font-size: 32px;
+			line-height: 40px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 360px;
+		}
+
+		.where-the-inspiration {
+			position: absolute;
+			top: 80px;
+			left: 0px;
+			line-height: 28px;
+			color: #000;
+		}
+
+		.lorem-ipsum-dolor {
+			position: absolute;
+			top: 133px;
+			left: 0px;
+			font-size: 16px;
+			letter-spacing: 0.5px;
+			line-height: 24px;
+			font-family: Roboto;
+			color: #292929;
+			text-align: left;
+			display: flex;
+			align-items: center;
+			width: 360px;
+		}
+
+		.unfold-your-wings {
+			position: relative;
+			line-height: 28px;
+		}
+
+		.unfold-your-wings-wrapper {
+			position: absolute;
+			top: 565px;
+			left: 72px;
+			border-radius: 14px;
+			border: 1px solid #3f1829;
+			box-sizing: border-box;
+			width: 216px;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			padding: 16px 20px;
+			text-align: left;
+			color: #c56f9b;
+		}
+
+		
+		.image-7-icon {
+			position: absolute;
+			top: 410px;
+			left: 0px;
+			width: 325px;
+			height: 894px;
+			object-fit: cover;
+		}
+
+		.icon {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 325px;
+			height: 410px;
+			object-fit: cover;
+		}
+
+		.icon1 {
+			position: absolute;
+			top: 0px;
+			left: 325px;
+			width: 419px;
+			height: 673px;
+			object-fit: cover;
+		}
+
+		.startinglines-1-icon {
+			position: absolute;
+			top: 673px;
+			left: 426px;
+			width: 217px;
+			height: 631px;
+			object-fit: contain;
+		}
+
+		.pattern-1-icon {
+			position: absolute;
+			top: 1304px;
+			left: 0px;
+			width: 744px;
+			height: 592px;
+			object-fit: cover;
+		}
+
+		.image-8-icon {
+			position: absolute;
+			top: 1896px;
+			left: 0px;
+			width: 744px;
+			height: 377px;
+			object-fit: cover;
+		}
+
+		.patternwithtext-1-icon {
+			position: absolute;
+			top: 2273px;
+			left: 0px;
+			width: 744px;
+			height: 564px;
+			object-fit: cover;
+		}
+
+		.font-1-icon {
+			position: absolute;
+			top: 2837px;
+			left: 0px;
+			width: 744px;
+			height: 363px;
+			object-fit: cover;
+		}
+
+		.sketches {
+			position: absolute;
+			top: 132px;
+			left: 267px;
+			line-height: 28px;
+		}
+
+		.inspiration {
+			position: absolute;
+			top: 843px;
+			left: 161px;
+			line-height: 28px;
+			color: #f2f6fc;
+		}
+
+		.idea {
+			position: absolute;
+			top: 974px;
+			left: 618px;
+			line-height: 28px;
+		}
+
+		.idea-to-pattern {
+			position: absolute;
+			top: 1586px;
+			left: 277px;
+			line-height: 28px;
+		}
+
+		.inspiration1 {
+			position: absolute;
+			top: 2070px;
+			left: 599px;
+			line-height: 28px;
+		}
+
+		.making-letters {
+			position: absolute;
+			top: 2312px;
+			left: 282px;
+			line-height: 28px;
+			font-family: Roboto;
+		}
+
+		.setting-up-letters {
+			position: absolute;
+			top: 3147px;
+			left: 255px;
+			line-height: 28px;
+		}
+
+		.transformation {
+			position: absolute;
+			top: 432px;
+			left: 0px;
+			width: 744px;
+			height: 3200px;
+			overflow: hidden;
+		}
+
+		.transformation1 {
+			position: absolute;
+			top: 0px;
+			left: 192px;
+			line-height: 28px;
+			color: #1c284f;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 360px;
+		}
+
+		.lorem-ipsum-dolor1 {
+			position: absolute;
+			top: 120px;
+			left: 95px;
+			font-size: 16px;
+			letter-spacing: 0.5px;
+			line-height: 24px;
+			color: #292929;
+			text-align: left;
+			display: flex;
+			align-items: center;
+			width: 552px;
+		}
+
+		.from-an-idea {
+			position: absolute;
+			top: 68px;
+			left: 96px;
+			line-height: 28px;
+			color: #000;
+		}
+
+		.sektion2 {
+			position: absolute;
+			top: 1411px;
+			left: 492px;
+			width: 744px;
+			height: 3632px;
+			text-align: center;
+			color: #222b49;
+		}
+
+		.firefly-papilio-display-promov {
+			width: 360px;
+			position: relative;
+			height: 360px;
+			object-fit: cover;
+		}
+
+		.firefly-papilio-display-promov1 {
+			width: 359px;
+			position: relative;
+			height: 360px;
+			object-fit: cover;
+		}
+
+		.firefly-papilio-display-promov-parent {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 744px;
+			display: flex;
+			flex-direction: row;
+			align-items: flex-start;
+			justify-content: space-between;
+			flex-wrap: wrap;
+			align-content: flex-start;
+		}
+
+		.growth {
+			position: absolute;
+			top: 0px;
+			left: 768px;
+			line-height: 28px;
+			text-align: center;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 360px;
+		}
+
+		.lorem-ipsum-dolor2 {
+			position: absolute;
+			top: 148px;
+			left: 768px;
+			font-size: 16px;
+			letter-spacing: 0.5px;
+			line-height: 24px;
+			color: #292929;
+			display: flex;
+			align-items: center;
+			width: 360px;
+		}
+
+		.adaptable-to-every {
+			position: absolute;
+			top: 68px;
+			left: 768px;
+			line-height: 28px;
+			display: flex;
+			color: #000;
+			align-items: center;
+			width: 360px;
+		}
+
+		.sektion3 {
+			position: absolute;
+			top: 5219px;
+			left: 300px;
+			width: 1128px;
+			height: 1220px;
+		}
+
+		.macbook-pro-16-1-child {
+			position: absolute;
+			top: 6039px;
+			left: 300px;
+			background-color: rgba(248, 248, 248, 0.5);
+			width: 768px;
+			height: 400px;
+		}
+
+		.flight {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			line-height: 28px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 360px;
+		}
+
+		.examples-of-papilio {
+			position: absolute;
+			top: 68px;
+			left: 0px;
+			line-height: 28px;
+			color: #000;
+		}
+
+		.lorem-ipsum-dolor3 {
+			position: absolute;
+			top: 120px;
+			left: 0px;
+			font-size: 16px;
+			letter-spacing: 0.5px;
+			line-height: 24px;
+			color: #292929;
+			text-align: left;
+			display: flex;
+			align-items: center;
+			width: 360px;
+		}
+
+		.unfold-your-wings-container {
+			position: absolute;
+			top: 576px;
+			left: 72px;
+			border-radius: 14px;
+			border: 1px solid #3f1829;
+			box-sizing: border-box;
+			width: 216px;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			padding: 16px 20px;
+			text-align: left;
+			color: #c56f9b;
+		}
+
+		.image-icon {
+			position: absolute;
+			top: 0px;
+			left: 384px;
+			width: 744px;
+			height: 1104px;
+			object-fit: cover;
+		}
+
+		.image-icon1 {
+			position: absolute;
+			top: 1144px;
+			left: 384px;
+			width: 744px;
+			height: 1104px;
+			object-fit: cover;
+		}
+
+		.sektion4-child {
+			position: absolute;
+			top: 1193px;
+			left: 360px;
+			background-color: rgba(248, 248, 248, 0.5);
+			width: 768px;
+			height: 1055px;
+		}
+
+		.sektion4 {
+			position: absolute;
+			top: 6615px;
+			left: 300px;
+			width: 1128px;
+			height: 2248px;
+			text-align: center;
+		}
+
+		.background-animated-gradient {
+			position: absolute;
+			top: -0.8px;
+			left: 0px;
+			width: 1728px;
+			height: 201px;
+			overflow: hidden;
+			opacity: 0.5;
+		}
+
+		.unfold-your-wings-frame {
+			position: absolute;
+			top: 36px;
+			left: 756px;
+			border-radius: 14px;
+			border: 1px solid #3f1829;
+			box-sizing: border-box;
+			width: 216px;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			padding: 16px 20px;
+		}
+
+		.promotional-site-for {
+			position: relative;
+			line-height: 28px;
+			color: #000;
+		}
+
+		.promotional-site-for-papilio-parent {
+			position: absolute;
+			top: 136px;
+			left: 300px;
+			width: 1128px;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-between;
+			color: #292929;
+		}
+
+		.footer {
+			position: absolute;
+			top: 8943px;
+			left: 0px;
+			width: 1728px;
+			height: 200px;
+			color: #c56f9b;
+		}
+
+		.background-animated-gradient1 {
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 1728px;
+			height: 124px;
+			overflow: hidden;
+			opacity: 0.5;
+		}
+
+		.origin1 {
+			position: relative;
+			line-height: 28px;
+			color: #c56f9b;
+		}
+
+		.frame-div {
+			border-radius: 14px;
+			border: 1px solid #3f1829;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			padding: 16px 20px;
+			color: #c56f9b;
+		}
+
+		.origin-parent {
+			position: absolute;
+			top: 0px;
+			left: 492px;
+			border-radius: 14px;
+			width: 744px;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			padding: 40px 0px 0px;
+			box-sizing: border-box;
+			gap: 40px;
+		}
+
+		.nav {
+			position: absolute;
+			top: 327px;
+			left: 0px;
+			width: 1728px;
+			height: 124px;
+			color: #4b86e6;
+		}
+
+		.logo-2-icon {
+			position: absolute;
+			top: 80px;
+			left: 300px;
+			width: 168px;
+			height: 168px;
+			overflow: hidden;
+		}
+	</style>
